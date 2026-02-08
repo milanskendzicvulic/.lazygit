@@ -1,6 +1,11 @@
 os:
   editPreset: "nvim"
 
+git:
+  paging:
+    colorArg: always
+    pager: delta --dark --paging=never --side-by-side --line-numbers --syntax-theme="gruvbox-dark"
+
 gui:
   nerdFontsVersion: "3"
   border: single
